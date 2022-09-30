@@ -1,11 +1,20 @@
-const withPlugins = require('next-compose-plugins');
-const optimizedImages = require('next-optimized-images');
-
-module.exports = withPlugins([
-  [optimizedImages, {
-    /* config for next-optimized-images */
-  }],
-
-  // your other plugins here
-
-]);
+/**
+ * @type {import('next').NextConfig}
+ */
+module.exports = {
+  reactStrictMode: true,
+  images: {
+    domains: [
+      'i.scdn.co', // Spotify Album Art
+      'pbs.twimg.com', // Twitter Profile Picture
+      'cdn.sanity.io'
+    ]
+  },
+  experimental: {
+    legacyBrowsers: false,
+    browsersListForSwc: true,
+    images: {
+      unoptimized: true
+    }
+  },
+};
