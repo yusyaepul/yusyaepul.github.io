@@ -20,7 +20,7 @@ export default function Home() {
                 <span className="font-semibold">Developer</span> .
               </h2>
               <p className="text-gray-600 dark:text-gray-400">
-                Hi, Saya <span className="font-semibold">Yusyaepul</span>, Seorang Programmer dengan lebih 10 tahun
+                Hi, Saya <span className="font-semibold">Yusyaepul</span>, Seorang Programmer dengan lebih dari 10 tahun
               </p>
               <p className="text-gray-600 dark:text-gray-400 mb-4">
               pengalaman menggunakan PHP dan Javascript untuk mengembangkan, menguji dan mengamati aplikasi perusahaan.
