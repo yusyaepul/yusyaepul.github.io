@@ -51,7 +51,7 @@ export default function Home() {
           </h3>
           <div className="flex gap-2 flex-col md:flex-row">
             <BlogPostCard
-              title="HTML5, CSS, Bootstrap, JavaScript, React, JQuery"
+              title="HTML5, CSS, Bootstrap, JavaScript, ReactJS, NextJS, JQuery"
               slug="style-guides-component-libraries-design-systems"
               gradient="from-[#D8B4FE] to-[#818CF8]"
               desc="Front End"
